@@ -6,7 +6,6 @@ use Carbon\Carbon ;
 use App\Models\Tablero;
 use Illuminate\Support\Facades\Blade ;
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\Schema;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -39,9 +38,5 @@ class AppServiceProvider extends ServiceProvider
                             echo \Carbon\Carbon::parse({$dta}->fecha)->format('d/m/Y') 
                     ?>" ;
         }) ;
-
-        //SQLSTATE[HY000] [1044] Access denied for user
-        Schema::defaultStringLength(191);
-
     }
 }

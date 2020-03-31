@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * Antonio J.Sánchez 
+ * curso 2019/20
+ */
+
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -18,7 +23,7 @@ class CreateNotaTable extends Migration
             $table->increments('idNot');
             $table->unsignedInteger('idTab') ;
             $table->text('texto') ;
-            $table->timestamp('fecha') ;
+            $table->date('fecha') ;
             $table->boolean('completado')->default(false) ;
         });
 

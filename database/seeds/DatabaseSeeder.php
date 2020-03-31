@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * Antonio J.Sánchez 
+ * curso 2019/20
+ */
+
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder

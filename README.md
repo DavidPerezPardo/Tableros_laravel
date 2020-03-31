@@ -28,9 +28,9 @@ composer install
 - [ ] Implementación de la opción **borrar tablero**
 - [ ] Implementación de la opción **crear tablero**
 - [x] Implementación de la opción **listar notas**
-- [ ] Implementación de la opción **editar nota**
+- [x] Implementación de la opción **editar nota**
 - [ ] Implementación de la opción **borrar nota**
-- [ ] Implementación de la opción **crear nota**
+- [x] Implementación de la opción **crear nota**
 
 ## License
 

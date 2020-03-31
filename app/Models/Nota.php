@@ -17,8 +17,13 @@ class Nota extends Model
     // establecemos el campo de clave primaria
     protected $primaryKey = 'idNot' ;
 
+    // Para métodos de asignamientos en masa
+    protected $fillable = ['idTab' , 'texto' , 'fecha' , 'completado'];
+
     // indicamos que no vamos a utilizar los campos created_at y updated_at
     public $timestamps = false ;
+
+
 
     /**
      * Relación N:1 (muchos a uno) con la tabla TABLERO
@@ -29,5 +34,6 @@ class Nota extends Model
     {
     	return $this->belongsTo('App\Models\Tablero', 'idTab') ;
     }
+
    
 }

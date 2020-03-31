@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * Antonio J.Sánchez 
+ * curso 2019/20
+ */
+
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -17,7 +22,7 @@ class CreateTableroTable extends Migration
         {
             $table->increments('idTab') ;
             $table->string('nombre', 150) ;
-            $table->timestamp('fecha') ;
+            $table->date('fecha') ;
         });
     }
 
