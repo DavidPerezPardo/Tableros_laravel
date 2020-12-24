@@ -9,7 +9,7 @@
 Desarrollo web en Entorno Servidor<br/>
 Antonio J.Sánchez - curso 2019/20
 
-El proyecto se utilizará para ilustrar cómo desarrollar un aplicación utilizando Laravel. La web implementa un sencillo CRUD para los diferentes tableros y las notas asociadas que pueblan la base de datos.
+El proyecto se utilizará para ilustrar cómo desarrollar un aplicación utilizando Laravel v7. La web implementa un sencillo CRUD para los diferentes tableros y las notas asociadas que pueblan la base de datos.
 
 ## Instrucciones
 Una vez descargado/clonado el proyecto, situado dentro de la carpeta del proyecto, instalamos todas las librerías y dependencias necesarias para el proyecto ejecutando el comando:
