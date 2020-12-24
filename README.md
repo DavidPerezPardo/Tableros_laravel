@@ -1,4 +1,4 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="200"></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
@@ -25,11 +25,10 @@ composer install
 - [x] Creación de **controladores**
 - [x] Implementación de la opción **listar tableros**
 - [x] Implementación de la opción **editar tablero**
-- [ ] Implementación de la opción **borrar tablero**
-- [ ] Implementación de la opción **crear tablero**
+- [X] Implementación de la opción **borrar tablero**
+- [X] Implementación de la opción **crear tablero**
 - [x] Implementación de la opción **listar notas**
 - [x] Implementación de la opción **editar nota**
-- [ ] Implementación de la opción **borrar nota**
 - [x] Implementación de la opción **crear nota**
 
 ## License
